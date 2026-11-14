@@ -1,0 +1,11 @@
+{
+  "name": "oth-email",
+  "private": true,
+  "scripts": {
+    "build": "mjml src/email.mjml -o dist/email.html",
+    "watch": "mjml --watch src/email.mjml -o dist/email.html"
+  },
+  "devDependencies": {
+    "mjml": "^4.15.3"
+  }
+}
