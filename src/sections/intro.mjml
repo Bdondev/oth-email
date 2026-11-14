@@ -1,0 +1,29 @@
+<mj-section background-color="#ffffff" padding="68px 24px 0">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="20px"
+      line-height="1.25"
+      padding="0 0 34px"
+    >
+      After 10 long years Off The Hook is excited to announce the return of Jordan. In anticipation for tomorrow's release, we decided to look back on how Jordans arguably became streetwear's most influential sneakers.
+    </mj-text>
+
+    <!-- Replace # with the approved article or campaign URL before release. -->
+    <mj-button
+      href="#"
+      background-color="#003b7a"
+      border-radius="0"
+      color="#ffffff"
+      font-size="20px"
+      font-weight="700"
+      inner-padding="18px 24px"
+      padding="0 0 88px"
+      css-class="intro-button"
+      width="380px"
+    >
+      LEARN MORE
+    </mj-button>
+  </mj-column>
+</mj-section>

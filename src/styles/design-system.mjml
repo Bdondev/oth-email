@@ -1,0 +1,30 @@
+<mj-attributes>
+  <mj-all
+    font-family="Arial, Helvetica, sans-serif"
+    color="#003b7a"
+  />
+  <mj-text
+    font-size="16px"
+    line-height="1.35"
+    color="#003b7a"
+  />
+  <mj-button
+    background-color="#003b7a"
+    color="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20px"
+    font-weight="700"
+    inner-padding="18px 24px"
+  />
+</mj-attributes>
+
+<mj-style inline="inline">
+  .email-link { color: #003b7a !important; text-decoration: none !important; }
+</mj-style>
+
+<mj-style>
+  @media only screen and (max-width: 480px) {
+    .intro-button table { width: 100% !important; }
+    .intro-button a { width: auto !important; }
+  }
+</mj-style>

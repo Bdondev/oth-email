@@ -2,9 +2,12 @@
   "name": "oth-email",
   "private": true,
   "scripts": {
-    "build": "mjml src/email.mjml -o dist/email.html",
+    "validate": "mjml --validate src/email.mjml",
+    "build": "mkdir -p dist && mjml src/email.mjml -o dist/email.html && node scripts/build-preview.mjs",
     "watch": "mjml --watch src/email.mjml -o dist/email.html",
-    "visual:qa": "node tests/visual-qa.mjs dist/email.html tests/screenshots"
+    "visual-qa": "npm run build && node tests/visual-qa.mjs dist/email.html tests/screenshots",
+    "visual:qa": "npm run visual-qa",
+    "test": "npm run validate && npm run build"
   },
   "devDependencies": {
     "mjml": "^4.15.3",

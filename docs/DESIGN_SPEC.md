@@ -12,7 +12,7 @@ Font stack: serif display logo plus bold sans-serif headings — Observed; exact
 | ID | Reference location | Live content | Decorative content | Layout/stacking | Outlook risk | Status |
 |---|---|---|---|---|---|---|
 | 01 | Header + hero | Logo text, hero heading | Jordan footwear image | Single column | Image URL and crop | In progress |
-| 02 | Intro CTA | Release paragraph, `LEARN MORE` | None | Single column | Button rendering | Planned |
+| 02 | Intro CTA | Release paragraph, `LEARN MORE` | None | Single column | Button rendering | In progress |
 | 03 | Upcoming Jordan drops | Heading, date, product names, CTA | Product images | Two-column product grid, then single item | Image blocking and stacking | Planned |
 | 04 | Shop Nike footwear | Heading, availability, product names, CTA | Feature/product images | Feature image, three-product row | Mobile stacking | Planned |
 | 05 | Contact, loyalty and footer | Contact, navigation, address, unsubscribe | Rewards artwork/icons | Single column | ESP/legal fields | Planned |
