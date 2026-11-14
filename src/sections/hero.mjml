@@ -1,14 +1,11 @@
 <mj-section background-color="#ffffff" padding="72px 24px 0">
   <mj-column>
-    <mj-text
-      align="center"
-      font-family="Georgia, 'Times New Roman', serif"
-      font-size="58px"
-      line-height="1"
-      letter-spacing="-3px"
+    <mj-image
+      src="../assets/source/off-the-hook-logo.png"
+      alt="Off The Hook"
+      width="360px"
       padding="0 0 88px"
-      color="#003b7a"
-    >off the hook</mj-text>
+    />
 
     <mj-text
       align="center"
@@ -21,7 +18,7 @@
     >THE<br />RETURN OF<br />THE<br />JUMPMAN</mj-text>
 
     <mj-image
-      src="{{HERO_IMAGE_URL}}"
+      src="../assets/source/hero.png"
       alt="Jordan sneakers arranged together"
       width="504px"
       padding="0"

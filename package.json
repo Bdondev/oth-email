@@ -3,9 +3,11 @@
   "private": true,
   "scripts": {
     "build": "mjml src/email.mjml -o dist/email.html",
-    "watch": "mjml --watch src/email.mjml -o dist/email.html"
+    "watch": "mjml --watch src/email.mjml -o dist/email.html",
+    "visual:qa": "node tests/visual-qa.mjs dist/email.html tests/screenshots"
   },
   "devDependencies": {
-    "mjml": "^4.15.3"
+    "mjml": "^4.15.3",
+    "playwright": "^1.65.1"
   }
 }
