@@ -1,32 +1,34 @@
 # Off The Hook Email
 
-Responsive marketing email for Off The Hook, built from the supplied mobile reference screenshot. The email is being recreated section by section with MJML, using live HTML for copy and separate image assets for the logo and product photography.
+Responsive Off The Hook sneaker marketing email recreated section by section from the supplied reference screenshot. The email is authored in MJML and compiled to client-compatible table-based HTML.
 
 ## Current status
 
-The header and hero section are implemented and include:
+The current build includes:
 
-- The Off The Hook logo
-- The “THE RETURN OF THE JUMPMAN” headline
-- The Jordan sneaker hero banner
-- Responsive MJML layout for mobile and desktop widths
-- Playwright visual QA at 320, 390, 600 and 1440 pixels
+- Responsive header and hero
+- Campaign introduction and CTA
+- Upcoming Jordan drops with five product cards
+- Nike footwear feature and product cards
+- Elevated Rewards banner
+- Release Calendar navigation and footer
+- Responsive visual QA at 320, 390, 600 and 1440px
 
-The remaining sections are planned but not implemented. Production image hosting, CTA URLs, ESP configuration, legal fields and real inbox testing are still pending.
+Live preview: [otf-mtl.netlify.app](https://otf-mtl.netlify.app)
+
+Source repository: [github.com/Bdondev/oth-email](https://github.com/Bdondev/oth-email)
 
 ## Stack
 
 - [MJML](https://mjml.io/) for responsive email authoring
 - Node.js and npm for the build workflow
 - Playwright and Chromium for browser-based visual QA
-- GitHub repository: [Bdondev/oth-email](https://github.com/Bdondev/oth-email)
+- Netlify for the hosted preview
 
 ## Project structure
 
 ```text
-assets/
-├── optimized/              # Processed assets for final use
-└── source/                 # Original supplied assets
+assets/source/              # Original supplied logo, hero and product assets
 
 docs/
 ├── DESIGN_SYSTEM.md        # Shared colors, type, spacing and email rules
@@ -34,14 +36,22 @@ docs/
 ├── CAMPAIGN_BRIEF.md       # Campaign facts, assumptions and open decisions
 ├── SECTION_BUILD_PLAN.md   # Section-by-section implementation plan
 ├── ASSET_MANIFEST.csv      # Asset provenance, dimensions and hosting status
-├── ASSET_AUDIT.md         # Automated asset inspection
+├── ASSET_AUDIT.md          # Automated asset inspection
 ├── QA_REPORT.md            # Latest Playwright report
-└── SECTION_QA_HERO.md      # Hero-specific QA notes
+├── SECTION_QA_HERO.md      # Hero-specific QA notes
+├── SECTION_QA_INTRO.md
+├── SECTION_QA_UPCOMING-JORDAN-DROPS.md
+├── SECTION_QA_NIKE-FOOTWEAR.md
+└── SECTION_QA_FOOTER.md
 
 src/
 ├── email.mjml              # MJML entry point
 ├── sections/               # Reusable email sections
-│   └── hero.mjml
+│   ├── hero.mjml
+│   ├── intro.mjml
+│   ├── upcoming-jordan-drops.mjml
+│   ├── nike-footwear.mjml
+│   └── footer.mjml
 └── styles/
     └── design-system.mjml  # Shared MJML attributes and styles
 
@@ -50,7 +60,9 @@ tests/
 └── screenshots/            # Generated visual QA screenshots
 
 dist/
-└── email.html              # Generated compiled email; ignored by Git
+└── email.html              # Generated compiled email and local preview
+
+netlify.toml                # Netlify build and publish configuration
 ```
 
 ## Development
@@ -61,7 +73,13 @@ Install dependencies:
 npm install
 ```
 
-Compile the MJML source:
+Validate the MJML source:
+
+```bash
+npm run validate
+```
+
+Build the compiled email and local preview:
 
 ```bash
 npm run build
@@ -79,11 +97,17 @@ Run visual QA:
 npm run visual:qa
 ```
 
+Run the full validation/build check:
+
+```bash
+npm test
+```
+
 The visual QA command creates screenshots in `tests/screenshots/` and updates `docs/QA_REPORT.md`. Browser screenshots do not replace testing in Gmail, Apple Mail or Outlook.
 
 ## Preview
 
-After building, preview `dist/email.html` with a local static server. The project-level asset paths are intended for local preview only. For a real send, replace them with HTTPS-hosted or ESP-hosted URLs.
+After building, preview `dist/email.html` with a local static server. The hosted preview is available at [otf-mtl.netlify.app](https://otf-mtl.netlify.app). For a real send, replace local image paths with HTTPS-hosted or ESP-hosted URLs.
 
 ## Email implementation rules
 
@@ -99,11 +123,10 @@ After building, preview `dist/email.html` with a local static server. The projec
 
 The following items still require confirmation or implementation:
 
-1. Add the remaining sections from the reference email.
-2. Supply final CTA destinations and tracking rules.
-3. Host all images over HTTPS or through the chosen ESP.
-4. Add the approved preheader, unsubscribe mechanism and postal address.
-5. Validate the final ESP-processed HTML.
-6. Test Gmail, Apple Mail and the required Outlook versions.
+1. Supply final CTA destinations and tracking rules.
+2. Host all images over HTTPS or through the chosen ESP.
+3. Add the approved preheader, unsubscribe mechanism and postal address.
+4. Validate the final ESP-processed HTML.
+5. Test Gmail, Apple Mail and the required Outlook versions.
 
 See [`docs/ACCEPTANCE_CRITERIA.md`](docs/ACCEPTANCE_CRITERIA.md) for the complete release checklist.
