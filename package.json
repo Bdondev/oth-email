@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "validate": "mjml --validate src/email.mjml",
-    "build": "mkdir -p dist && mjml src/email.mjml -o dist/email.html && node scripts/build-preview.mjs",
+    "build": "mkdir -p dist && mjml src/email.mjml -o dist/email.html && mkdir -p dist/assets && cp -R assets/source dist/assets/ && node scripts/build-preview.mjs",
     "watch": "mjml --watch src/email.mjml -o dist/email.html",
     "visual-qa": "npm run build && node tests/visual-qa.mjs dist/email.html tests/screenshots",
     "visual:qa": "npm run visual-qa",
