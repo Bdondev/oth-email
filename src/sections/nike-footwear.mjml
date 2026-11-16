@@ -1,0 +1,98 @@
+<mj-section background-color="#ffffff" padding="84px 24px 0">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="56px"
+      line-height="1.08"
+      font-weight="700"
+      letter-spacing="1px"
+      padding="0 0 34px"
+    >SHOP NIKE<br />FOOTWEAR</mj-text>
+
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="24px"
+      line-height="1.2"
+      font-weight="700"
+      padding="0 12px 46px"
+    >NOW AVAILABLE ONLINE,<br />IN-APP AND IN-STORE</mj-text>
+
+    <mj-image
+      src="assets/source/nike-footwear-feature.png"
+      alt="Nike footwear product feature"
+      width="504px"
+      padding="0"
+    />
+  </mj-column>
+</mj-section>
+
+<!-- Product photography is pending; keep product names live until approved assets arrive. -->
+<mj-section background-color="#ffffff" padding="72px 24px 0">
+  <mj-column width="33.33%" padding="0 8px 64px">
+    <mj-image
+      src="assets/source/nike-mind-002.png"
+      alt="Nike Mind 002"
+      width="160px"
+      padding="0 0 16px"
+    />
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="18px"
+      line-height="1.2"
+      padding="0"
+    >Nike Mind 002</mj-text>
+  </mj-column>
+
+  <mj-column width="33.33%" padding="0 8px 64px">
+    <mj-image
+      src="assets/source/nike-air-force-1.png"
+      alt="Nike Air Force 1 '07"
+      width="160px"
+      padding="0 0 16px"
+    />
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="18px"
+      line-height="1.2"
+      padding="0"
+    >Nike Air Force 1 '07</mj-text>
+  </mj-column>
+
+  <mj-column width="33.33%" padding="0 8px 64px">
+    <mj-image
+      src="assets/source/nike-revolution-8.png"
+      alt="Nike Revolution 8 EasyOn"
+      width="160px"
+      padding="0 0 16px"
+    />
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="18px"
+      line-height="1.2"
+      padding="0"
+    >Nike Revolution 8<br />EasyOn</mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Replace # with the approved Nike footwear URL before release. -->
+<mj-section background-color="#ffffff" padding="0 24px 92px">
+  <mj-column>
+    <mj-button
+      href="#"
+      background-color="#003b7a"
+      border-radius="0"
+      color="#ffffff"
+      font-size="20px"
+      font-weight="700"
+      inner-padding="18px 24px"
+      padding="0"
+      css-class="intro-button"
+      width="380px"
+    >SHOP NIKE<br />FOOTWEAR</mj-button>
+  </mj-column>
+</mj-section>
