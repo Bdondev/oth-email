@@ -1,0 +1,107 @@
+<mj-section background-color="#ffffff" padding="0 24px 0">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="18px"
+      line-height="1.35"
+      padding="0 0 42px"
+    >GOT A QUESTION? CONTACT US AT<br /><a href="mailto:cs@offthehook.ca" class="email-link">CS@OFFTHEHOOK.CA</a></mj-text>
+    <mj-divider border-color="#e5e5e5" border-width="1px" padding="0 0 24px" />
+  </mj-column>
+</mj-section>
+
+<!-- Rewards artwork/icons are not supplied; keep the banner copy and CTA live. -->
+<mj-section background-color="#ffffff" padding="0 48px" css-class="rewards-container">
+  <mj-column background-color="#003b7a" padding="16px 24px">
+    <mj-text
+      color="#ffffff"
+      font-size="24px"
+      line-height="1.1"
+      font-weight="700"
+      padding="0 0 8px"
+    >ELEVATED REWARDS PROGRAM</mj-text>
+    <mj-text
+      color="#ffffff"
+      font-size="13px"
+      line-height="1.25"
+      padding="0 0 12px"
+    >Join our Elevated Rewards Program<br />and redeem exclusive member rewards and benefits.</mj-text>
+    <!-- Replace # with the approved rewards URL before release. -->
+    <mj-button
+      href="#"
+      align="left"
+      background-color="#003b7a"
+      border="1px solid #ffffff"
+      border-radius="0"
+      color="#ffffff"
+      font-size="12px"
+      font-weight="700"
+      inner-padding="6px 12px"
+      padding="0"
+      width="96px"
+    >LEARN MORE</mj-button>
+  </mj-column>
+</mj-section>
+
+<mj-section
+  background-color="#ffffff"
+  padding="24px 48px 0"
+  css-class="footer-nav-section"
+>
+  <mj-column>
+    <mj-divider border-color="#e5e5e5" border-width="1px" padding="0 0 24px" />
+    <mj-text
+      color="#003b7a"
+      font-size="28px"
+      line-height="1.12"
+      font-weight="700"
+      padding="0 0 28px"
+    ><a href="#" class="email-link">RELEASE CALENDAR</a><br /><a href="#" class="email-link">NEW ARRIVALS</a><br /><a href="#" class="email-link">SNEAKERS</a><br /><a href="#" class="email-link">BRANDS</a><br /><a href="#" style="color:#b12c1e !important; text-decoration:none;">SALE</a></mj-text>
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="16px"
+      line-height="1.35"
+      font-weight="700"
+      padding="0 0 36px"
+    >DOWNLOAD OUR APP — NOW AVAILABLE ON<br />iOS &amp; ANDROID</mj-text>
+    <mj-divider border-color="#e5e5e5" border-width="1px" padding="0 0 28px" />
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" padding="0 24px 0">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#222222"
+      font-size="18px"
+      line-height="1.2"
+      font-weight="700"
+      padding="0 0 12px"
+    >OFF THE HOOK</mj-text>
+    <mj-text
+      align="center"
+      color="#222222"
+      font-size="16px"
+      line-height="1.15"
+      padding="0 0 76px"
+    >1021 Ste Catherine O.<br />Montreal, QC, Canada<br />H3B 1H1</mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" padding="0 24px 28px">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#888888"
+      font-size="14px"
+      line-height="1.35"
+      padding="0"
+    >No longer want to receive these emails? <a href="#" style="color:#003b7a; text-decoration:underline;">Unsubscribe</a>.<br />OFF THE HOOK 1021 Ste Catherine Ouest Montreal, Quebec<br />H3B 1H1</mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#bdbdbd" padding="4px 0 0">
+  <mj-column padding="0" />
+</mj-section>

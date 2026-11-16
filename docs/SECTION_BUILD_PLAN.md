@@ -12,7 +12,7 @@ Target inboxes: Needs confirmation
 | 02 | Intro CTA | Screenshot-observed paragraph and `LEARN MORE`; URL missing | Live HTML | Text + MJML button | Single column | Placeholder URL; button click area | Built — visual QA pending |
 | 03 | Upcoming Jordan drops | Product names observed; links and image assets missing | Separate product images | Reusable product cells | Two columns stack on mobile | Image blocking | Built — product images and URL pending |
 | 04 | Shop Nike footwear | Headings and product names observed; links and assets missing | Feature photo + product images | Feature image + product row | Product row stacks | Width/crop differences | Built — product images and URL pending |
-| 05 | Contact, rewards and footer | Footer copy observed; ESP fields need approval | Rewards artwork/icons missing | Live footer/legal modules | Single column | ESP merge syntax | Not started |
+| 05 | Contact, rewards and footer | Footer copy observed; ESP fields need approval | Rewards artwork/icons missing | Live footer/legal modules | Single column | ESP merge syntax | Built — artwork, links and ESP fields pending |
 
 ## Stop rule
 

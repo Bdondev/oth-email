@@ -26,5 +26,10 @@
   @media only screen and (max-width: 480px) {
     .intro-button table { width: 100% !important; }
     .intro-button a { width: auto !important; }
+    .rewards-container > table > tbody > tr > td,
+    .footer-nav-section > table > tbody > tr > td {
+      padding-left: 24px !important;
+      padding-right: 24px !important;
+    }
   }
 </mj-style>
