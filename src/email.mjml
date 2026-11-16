@@ -9,5 +9,6 @@
 
     <mj-include path="sections/hero.mjml" />
     <mj-include path="sections/intro.mjml" />
+    <mj-include path="sections/upcoming-jordan-drops.mjml" />
   </mj-body>
 </mjml>

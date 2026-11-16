@@ -1,0 +1,127 @@
+<mj-section background-color="#ffffff" padding="84px 24px 0">
+  <mj-column>
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="56px"
+      line-height="1.08"
+      font-weight="700"
+      letter-spacing="1px"
+      padding="0 0 34px"
+    >UPCOMING<br />JORDAN<br />DROPS</mj-text>
+
+    <mj-text
+      align="center"
+      color="#003b7a"
+      font-size="24px"
+      line-height="1.2"
+      font-weight="700"
+      padding="0 12px 64px"
+    >IN-STORE AT 11:00 AM,<br />ONLINE &amp; IN-APP AT 2:00<br />PM ON WEDNESDAY,<br />OCTOBER 11</mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Product photography is pending; keep product names live until approved assets arrive. -->
+<mj-section background-color="#ffffff" padding="0 24px">
+  <mj-column width="50%" padding="0 12px 58px">
+      <mj-image
+        src="assets/source/air-jordan-1-low-se-craft-sky-j-lt-olive-black-celadon.png"
+        alt="Air Jordan 1 Low SE Craft Sky J Lt Olive/Black-Celadon"
+        width="220px"
+        padding="0 0 16px"
+      />
+      <mj-text
+        align="center"
+        color="#003b7a"
+        font-size="18px"
+        line-height="1.2"
+        padding="0"
+      >Air Jordan 1 Low SE<br />Craft Sky J Lt<br />Olive/Black-Celadon</mj-text>
+  </mj-column>
+
+  <mj-column width="50%" padding="0 12px 58px">
+      <mj-image
+        src="assets/source/air-jordan-9.png"
+        alt="Air Jordan 9"
+        width="220px"
+        padding="0 0 16px"
+      />
+      <mj-text
+        align="center"
+        color="#003b7a"
+        font-size="18px"
+        line-height="1.2"
+        padding="0"
+      >Air Jordan 9 Retro OG</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" padding="0 24px">
+  <mj-column padding="0 12px 58px">
+      <mj-image
+        src="assets/source/air-jordan-12-retro.png"
+        alt="Air Jordan 12 Retro Idols Become Rivals"
+        width="220px"
+        padding="0 0 16px"
+      />
+      <mj-text
+        align="center"
+        color="#003b7a"
+        font-size="18px"
+        line-height="1.2"
+        padding="0"
+      >Air Jordan 12 Retro 'Idols Become Rivals'</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#ffffff" padding="0 24px">
+  <mj-column width="50%" padding="0 12px 76px">
+      <mj-image
+        src="assets/source/air-jordan-5-retro.png"
+        alt="Air Jordan 5 Retro Halloween"
+        width="220px"
+        padding="0 0 16px"
+      />
+      <mj-text
+        align="center"
+        color="#003b7a"
+        font-size="18px"
+        line-height="1.2"
+        padding="0"
+      >Air Jordan 5 Retro 'Halloween'</mj-text>
+  </mj-column>
+
+  <mj-column width="50%" padding="0 12px 76px">
+      <mj-image
+        src="assets/source/air-jordan-8-retro.png"
+        alt="Air Jordan 8 Retro Chrome"
+        width="220px"
+        padding="0 0 16px"
+      />
+      <mj-text
+        align="center"
+        color="#003b7a"
+        font-size="18px"
+        line-height="1.2"
+        padding="0"
+      >Air Jordan 8 Retro 'Chrome'</mj-text>
+  </mj-column>
+</mj-section>
+
+<!-- Replace # with the approved release-calendar URL before release. -->
+<mj-section background-color="#ffffff" padding="0 24px 92px">
+  <mj-column>
+    <mj-button
+      href="#"
+      background-color="#003b7a"
+      border-radius="0"
+      color="#ffffff"
+      font-size="20px"
+      font-weight="700"
+      inner-padding="18px 24px"
+      padding="0"
+      css-class="intro-button"
+      width="380px"
+    >SEE UPCOMING<br />RELEASES</mj-button>
+  </mj-column>
+</mj-section>
